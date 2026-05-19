@@ -1,0 +1,2991 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "title": "Electronics",
+      "slug": "electronics",
+      "banner": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "description": "Latest smart gadgets and premium electronics products."
+    },
+    {
+      "id": "fashion",
+      "title": "Fashion",
+      "slug": "fashion",
+      "banner": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
+      "description": "Modern fashion collections for men and women."
+    },
+    {
+      "id": "grocery",
+      "title": "Grocery",
+      "slug": "grocery",
+      "banner": "https://images.unsplash.com/photo-1542838132-92c53300491e",
+      "description": "Fresh groceries and healthy daily essentials."
+    },
+    {
+      "id": "beauty",
+      "title": "Beauty",
+      "slug": "beauty",
+      "banner": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+      "description": "Premium beauty and skincare collections."
+    },
+    {
+      "id": "furniture",
+      "title": "Furniture",
+      "slug": "furniture",
+      "banner": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "description": "Modern furniture for stylish homes."
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "slug": "sports",
+      "banner": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+      "description": "Professional sports and fitness equipment."
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "slug": "books",
+      "banner": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "description": "Best-selling books and educational resources."
+    },
+    {
+      "id": "toys",
+      "title": "Toys",
+      "slug": "toys",
+      "banner": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
+      "description": "Creative and fun toys for kids."
+    },
+    {
+      "id": "automotive",
+      "title": "Automotive",
+      "slug": "automotive",
+      "banner": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "description": "Modern automotive accessories and essentials."
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 15 Pro Max",
+      "slug": "iphone-15-pro-max",
+      "category": "electronics",
+      "brand": "Apple",
+      "price": 1499,
+      "discountPrice": 1399,
+      "stock": 18,
+      "rating": 4.9,
+      "reviews": 2540,
+      "sku": "APL-IP15PM-001",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1695048133142-1a20484d2569",
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab"
+      ],
+      "description": "Powerful flagship smartphone with titanium design.",
+      "features": ["A17 Pro Chip", "48MP Camera", "USB-C", "120Hz Display"],
+      "specifications": {
+        "display": "6.7-inch OLED",
+        "storage": "256GB",
+        "battery": "4422mAh"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S25 Ultra",
+      "slug": "samsung-galaxy-s25-ultra",
+      "category": "electronics",
+      "brand": "Samsung",
+      "price": 1349,
+      "discountPrice": 1249,
+      "stock": 24,
+      "rating": 4.8,
+      "reviews": 1890,
+      "sku": "SMS-S25U-002",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf"
+      ],
+      "description": "Premium Android flagship smartphone.",
+      "features": ["200MP Camera", "AMOLED Display", "S-Pen"],
+      "specifications": {
+        "display": "6.8-inch AMOLED",
+        "storage": "512GB"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 3,
+      "title": "MacBook Pro M4",
+      "slug": "macbook-pro-m4",
+      "category": "electronics",
+      "brand": "Apple",
+      "price": 2399,
+      "discountPrice": 2199,
+      "stock": 14,
+      "rating": 4.9,
+      "reviews": 980,
+      "sku": "APL-MBP-003",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8",
+      "images": [
+        "https://images.unsplash.com/photo-1517336714739-489689fd1ca8"
+      ],
+      "description": "Professional laptop powered by Apple M4 chip.",
+      "features": ["M4 Chip", "Liquid Retina", "All Day Battery"],
+      "specifications": {
+        "display": "16-inch Retina",
+        "storage": "1TB SSD"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-7 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 4,
+      "title": "Sony WH-1000XM5",
+      "slug": "sony-wh1000xm5",
+      "category": "electronics",
+      "brand": "Sony",
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 30,
+      "rating": 4.8,
+      "reviews": 1430,
+      "sku": "SNY-HDP-004",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+      ],
+      "description": "Industry-leading wireless noise cancelling headphones.",
+      "features": ["Noise Cancellation", "30 Hour Battery", "Bluetooth 5.3"],
+      "specifications": {
+        "battery": "30 Hours",
+        "connectivity": "Bluetooth"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 5,
+      "title": "Premium Oversized Hoodie",
+      "slug": "premium-oversized-hoodie",
+      "category": "fashion",
+      "brand": "UrbanWear",
+      "price": 89,
+      "discountPrice": 69,
+      "stock": 55,
+      "rating": 4.7,
+      "reviews": 830,
+      "sku": "URB-HOOD-005",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+      ],
+      "description": "Comfortable oversized hoodie for modern streetwear.",
+      "features": ["Cotton Fabric", "Oversized Fit"],
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Gray"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 6,
+      "title": "Luxury Leather Jacket",
+      "slug": "luxury-leather-jacket",
+      "category": "fashion",
+      "brand": "Royal Fashion",
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 12,
+      "rating": 4.9,
+      "reviews": 420,
+      "sku": "ROY-JACK-006",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+      "images": ["https://images.unsplash.com/photo-1551028719-00167b16eac5"],
+      "description": "Elegant genuine leather jacket.",
+      "features": ["Genuine Leather", "Modern Fit"],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Brown", "Black"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-7 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Dell XPS 15 Laptop",
+      "slug": "dell-xps-15-laptop",
+      "category": "electronics",
+      "brand": "Dell",
+      "price": 1899,
+      "discountPrice": 1749,
+      "stock": 15,
+      "rating": 4.8,
+      "reviews": 1120,
+      "sku": "DLL-XPS15-007",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+        "https://images.unsplash.com/photo-1517336714739-489689fd1ca8"
+      ],
+      "description": "Premium ultrabook laptop for productivity and creativity.",
+      "features": ["Intel Core i9", "32GB RAM", "1TB SSD", "4K Display"],
+      "specifications": {
+        "display": "15.6-inch OLED",
+        "storage": "1TB SSD",
+        "processor": "Intel Core i9"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 8,
+      "title": "Canon EOS R6 Camera",
+      "slug": "canon-eos-r6-camera",
+      "category": "electronics",
+      "brand": "Canon",
+      "price": 2499,
+      "discountPrice": 2299,
+      "stock": 9,
+      "rating": 4.9,
+      "reviews": 760,
+      "sku": "CNN-R6-008",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+      ],
+      "description": "Professional mirrorless camera for photography and video.",
+      "features": ["4K Video", "Full Frame Sensor", "Image Stabilization"],
+      "specifications": {
+        "sensor": "Full Frame",
+        "video": "4K 60fps"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-7 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 9,
+      "title": "Nike Air Max Sneakers",
+      "slug": "nike-air-max-sneakers",
+      "category": "fashion",
+      "brand": "Nike",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 40,
+      "rating": 4.7,
+      "reviews": 2200,
+      "sku": "NKE-AMX-009",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff"],
+      "description": "Comfortable and stylish sneakers for everyday use.",
+      "features": ["Air Cushion", "Lightweight", "Modern Design"],
+      "sizes": ["40", "41", "42", "43"],
+      "colors": ["White", "Black"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 10,
+      "title": "Modern Slim Fit Shirt",
+      "slug": "modern-slim-fit-shirt",
+      "category": "fashion",
+      "brand": "Zara",
+      "price": 65,
+      "discountPrice": 49,
+      "stock": 55,
+      "rating": 4.5,
+      "reviews": 820,
+      "sku": "ZRA-SFS-010",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf"
+      ],
+      "description": "Elegant slim fit shirt for casual and formal wear.",
+      "features": ["Cotton Fabric", "Breathable", "Slim Fit"],
+      "sizes": ["S", "M", "L"],
+      "colors": ["Blue", "White"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 11,
+      "title": "Organic Fresh Apples",
+      "slug": "organic-fresh-apples",
+      "category": "grocery",
+      "brand": "Farm Fresh",
+      "price": 12,
+      "discountPrice": 9,
+      "stock": 120,
+      "rating": 4.8,
+      "reviews": 320,
+      "sku": "FRM-APL-011",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+      "images": [
+        "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce"
+      ],
+      "description": "Fresh organic apples directly from farms.",
+      "features": ["Organic", "Fresh", "Healthy"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "1-2 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 12,
+      "title": "Premium Face Wash",
+      "slug": "premium-face-wash",
+      "category": "beauty",
+      "brand": "GlowCare",
+      "price": 28,
+      "discountPrice": 22,
+      "stock": 80,
+      "rating": 4.7,
+      "reviews": 910,
+      "sku": "GLW-FW-012",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be"
+      ],
+      "description": "Gentle skincare face wash for glowing skin.",
+      "features": ["Vitamin C", "Deep Clean", "Soft Skin"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 13,
+      "title": "Luxury Sofa Set",
+      "slug": "luxury-sofa-set",
+      "category": "furniture",
+      "brand": "HomeStyle",
+      "price": 1299,
+      "discountPrice": 1149,
+      "stock": 8,
+      "rating": 4.9,
+      "reviews": 270,
+      "sku": "HMS-SFA-013",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+      ],
+      "description": "Modern luxury sofa set for elegant living rooms.",
+      "features": ["Premium Fabric", "Comfort Design", "Modern Style"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "7-10 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 14,
+      "title": "Gaming Office Chair",
+      "slug": "gaming-office-chair",
+      "category": "furniture",
+      "brand": "GamePro",
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 20,
+      "rating": 4.6,
+      "reviews": 640,
+      "sku": "GMP-CHR-014",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
+      "images": [
+        "https://images.unsplash.com/photo-1580480055273-228ff5388ef8"
+      ],
+      "description": "Ergonomic gaming chair for long-hour comfort.",
+      "features": ["Ergonomic", "Adjustable Height", "Lumbar Support"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 15,
+      "title": "Professional Football",
+      "slug": "professional-football",
+      "category": "sports",
+      "brand": "Adidas",
+      "price": 55,
+      "discountPrice": 45,
+      "stock": 65,
+      "rating": 4.8,
+      "reviews": 540,
+      "sku": "ADD-FBL-015",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517466787929-bc90951d0974",
+      "images": [
+        "https://images.unsplash.com/photo-1517466787929-bc90951d0974"
+      ],
+      "description": "Professional football for training and matches.",
+      "features": ["Durable Material", "FIFA Standard"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Yoga Fitness Mat",
+      "slug": "yoga-fitness-mat",
+      "category": "sports",
+      "brand": "FitLife",
+      "price": 45,
+      "discountPrice": 35,
+      "stock": 70,
+      "rating": 4.7,
+      "reviews": 420,
+      "sku": "FIT-MAT-016",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+      "images": [
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a"
+      ],
+      "description": "Eco-friendly yoga mat for home and gym workouts.",
+      "features": ["Anti Slip", "Eco Material", "Comfortable Grip"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 17,
+      "title": "Atomic Habits Book",
+      "slug": "atomic-habits-book",
+      "category": "books",
+      "brand": "James Clear",
+      "price": 25,
+      "discountPrice": 19,
+      "stock": 120,
+      "rating": 4.9,
+      "reviews": 5320,
+      "sku": "BOK-ATH-017",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "images": [
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+      ],
+      "description": "Best-selling self improvement and productivity book.",
+      "features": ["Motivational", "Habit Building", "Personal Growth"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 18,
+      "title": "Children Learning Toy Set",
+      "slug": "children-learning-toy-set",
+      "category": "toys",
+      "brand": "KidsWorld",
+      "price": 65,
+      "discountPrice": 52,
+      "stock": 45,
+      "rating": 4.6,
+      "reviews": 310,
+      "sku": "TOY-LRN-018",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
+      "images": ["https://images.unsplash.com/photo-1558060370-d644479cb6f7"],
+      "description": "Educational toy set designed for kids learning activities.",
+      "features": ["Educational", "Safe Material", "Colorful Design"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 19,
+      "title": "Car Vacuum Cleaner",
+      "slug": "car-vacuum-cleaner",
+      "category": "automotive",
+      "brand": "AutoCare",
+      "price": 89,
+      "discountPrice": 69,
+      "stock": 35,
+      "rating": 4.5,
+      "reviews": 260,
+      "sku": "AUT-VAC-019",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      ],
+      "description": "Portable vacuum cleaner for car interior cleaning.",
+      "features": ["Portable", "Strong Suction", "Rechargeable"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 20,
+      "title": "Wireless Gaming Mouse",
+      "slug": "wireless-gaming-mouse",
+      "category": "electronics",
+      "brand": "Logitech",
+      "price": 120,
+      "discountPrice": 95,
+      "stock": 50,
+      "rating": 4.8,
+      "reviews": 890,
+      "sku": "LOG-MSE-020",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1527814050087-3793815479db",
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db"
+      ],
+      "description": "High precision wireless gaming mouse with RGB lighting.",
+      "features": ["RGB Lighting", "Wireless", "High DPI"],
+      "specifications": {
+        "battery": "70 Hours",
+        "connectivity": "Wireless"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 21,
+      "title": "Smart Fitness Watch",
+      "slug": "smart-fitness-watch",
+      "category": "electronics",
+      "brand": "FitTrack",
+      "price": 220,
+      "discountPrice": 189,
+      "stock": 28,
+      "rating": 4.7,
+      "reviews": 720,
+      "sku": "FIT-WTC-021",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+      ],
+      "description": "Advanced smartwatch with fitness tracking features.",
+      "features": ["Heart Rate Monitor", "Water Resistant", "Sleep Tracking"],
+      "specifications": {
+        "battery": "10 Days",
+        "display": "AMOLED"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 22,
+      "title": "Premium Makeup Kit",
+      "slug": "premium-makeup-kit",
+      "category": "beauty",
+      "brand": "BeautyGlow",
+      "price": 95,
+      "discountPrice": 75,
+      "stock": 38,
+      "rating": 4.8,
+      "reviews": 650,
+      "sku": "BTY-MKP-022",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
+      ],
+      "description": "Complete beauty makeup kit with premium cosmetics.",
+      "features": ["Long Lasting", "Skin Friendly", "Professional Quality"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 23,
+      "title": "Wooden Dining Table",
+      "slug": "wooden-dining-table",
+      "category": "furniture",
+      "brand": "WoodCraft",
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 10,
+      "rating": 4.9,
+      "reviews": 180,
+      "sku": "FUR-TBL-023",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+      ],
+      "description": "Elegant wooden dining table for modern homes.",
+      "features": ["Solid Wood", "Modern Design", "Durable Build"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "7-10 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 24,
+      "title": "Organic Green Tea",
+      "slug": "organic-green-tea",
+      "category": "grocery",
+      "brand": "NatureLeaf",
+      "price": 18,
+      "discountPrice": 14,
+      "stock": 140,
+      "rating": 4.6,
+      "reviews": 370,
+      "sku": "GRC-TEA-024",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "images": [
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+      ],
+      "description": "Healthy organic green tea with natural flavor.",
+      "features": ["Organic", "Healthy", "Natural Taste"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 25,
+      "title": "Basketball Training Shoes",
+      "slug": "basketball-training-shoes",
+      "category": "sports",
+      "brand": "Puma",
+      "price": 140,
+      "discountPrice": 115,
+      "stock": 32,
+      "rating": 4.7,
+      "reviews": 490,
+      "sku": "SPT-SHO-025",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+      "images": [
+        "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+      ],
+      "description": "Professional basketball shoes with strong grip.",
+      "features": ["Comfort Fit", "Strong Grip", "Lightweight"],
+      "sizes": ["40", "41", "42", "43"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 26,
+      "title": "Programming JavaScript Book",
+      "slug": "programming-javascript-book",
+      "category": "books",
+      "brand": "TechPress",
+      "price": 38,
+      "discountPrice": 30,
+      "stock": 95,
+      "rating": 4.9,
+      "reviews": 1540,
+      "sku": "BOK-JS-026",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "images": [
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+      ],
+      "description": "Complete guide to modern JavaScript programming.",
+      "features": ["Beginner Friendly", "Advanced Concepts", "Real Projects"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 27,
+      "title": "Remote Control Racing Car",
+      "slug": "remote-control-racing-car",
+      "category": "toys",
+      "brand": "SpeedKids",
+      "price": 85,
+      "discountPrice": 69,
+      "stock": 44,
+      "rating": 4.5,
+      "reviews": 280,
+      "sku": "TOY-RCC-027",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
+      "images": ["https://images.unsplash.com/photo-1558060370-d644479cb6f7"],
+      "description": "High-speed remote control racing car for kids.",
+      "features": ["Rechargeable", "Fast Speed", "Durable Design"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 28,
+      "title": "Car Dashboard Camera",
+      "slug": "car-dashboard-camera",
+      "category": "automotive",
+      "brand": "DriveSafe",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 22,
+      "rating": 4.7,
+      "reviews": 430,
+      "sku": "AUT-CAM-028",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      ],
+      "description": "HD dashboard camera for vehicle safety recording.",
+      "features": ["HD Recording", "Night Vision", "Wide Angle Lens"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 29,
+      "title": "Modern Women Handbag",
+      "slug": "modern-women-handbag",
+      "category": "fashion",
+      "brand": "StyleQueen",
+      "price": 110,
+      "discountPrice": 89,
+      "stock": 40,
+      "rating": 4.8,
+      "reviews": 690,
+      "sku": "FSH-BAG-029",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff"],
+      "description": "Elegant handbag for modern women fashion.",
+      "features": ["Premium Leather", "Luxury Design", "Large Storage"],
+      "colors": ["Black", "Brown", "Pink"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 30,
+      "title": "Air Fryer Oven",
+      "slug": "air-fryer-oven",
+      "category": "electronics",
+      "brand": "KitchenPro",
+      "price": 260,
+      "discountPrice": 219,
+      "stock": 18,
+      "rating": 4.8,
+      "reviews": 520,
+      "sku": "ELC-AFR-030",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+      "images": [
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c"
+      ],
+      "description": "Smart air fryer oven for healthy cooking.",
+      "features": ["Oil Free Cooking", "Digital Display", "Large Capacity"],
+      "specifications": {
+        "capacity": "8L",
+        "power": "1800W"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+    {
+      "id": 31,
+      "title": "HP Pavilion Gaming Laptop",
+      "slug": "hp-pavilion-gaming-laptop",
+      "category": "electronics",
+      "brand": "HP",
+      "price": 1599,
+      "discountPrice": 1449,
+      "stock": 16,
+      "rating": 4.7,
+      "reviews": 980,
+      "sku": "HP-GAME-031",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8",
+      "images": [
+        "https://images.unsplash.com/photo-1517336714739-489689fd1ca8"
+      ],
+      "description": "High performance gaming laptop for creators and gamers.",
+      "features": ["RTX Graphics", "144Hz Display", "RGB Keyboard"],
+      "specifications": {
+        "processor": "Intel Core i7",
+        "storage": "1TB SSD"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 32,
+      "title": "Bluetooth Portable Speaker",
+      "slug": "bluetooth-portable-speaker",
+      "category": "electronics",
+      "brand": "JBL",
+      "price": 140,
+      "discountPrice": 115,
+      "stock": 45,
+      "rating": 4.8,
+      "reviews": 1260,
+      "sku": "JBL-SPK-032",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1545454675-3531b543be5d",
+      "images": ["https://images.unsplash.com/photo-1545454675-3531b543be5d"],
+      "description": "Portable Bluetooth speaker with deep bass sound.",
+      "features": ["Water Resistant", "Deep Bass", "12 Hours Battery"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 33,
+      "title": "Men Casual Denim Jacket",
+      "slug": "men-casual-denim-jacket",
+      "category": "fashion",
+      "brand": "Levis",
+      "price": 120,
+      "discountPrice": 95,
+      "stock": 38,
+      "rating": 4.6,
+      "reviews": 720,
+      "sku": "LEV-JKT-033",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1523398002811-999ca8dec234",
+      "images": [
+        "https://images.unsplash.com/photo-1523398002811-999ca8dec234"
+      ],
+      "description": "Stylish denim jacket for modern fashion lovers.",
+      "features": ["Premium Denim", "Comfort Fit", "Modern Design"],
+      "sizes": ["M", "L", "XL"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 34,
+      "title": "Women Summer Dress",
+      "slug": "women-summer-dress",
+      "category": "fashion",
+      "brand": "H&M",
+      "price": 85,
+      "discountPrice": 69,
+      "stock": 52,
+      "rating": 4.7,
+      "reviews": 850,
+      "sku": "HM-DRS-034",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+      "images": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+      ],
+      "description": "Elegant summer dress with lightweight fabric.",
+      "features": ["Soft Fabric", "Elegant Design", "Comfortable"],
+      "sizes": ["S", "M", "L"],
+      "colors": ["Red", "White", "Blue"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 35,
+      "title": "Organic Honey Bottle",
+      "slug": "organic-honey-bottle",
+      "category": "grocery",
+      "brand": "BeeNatural",
+      "price": 22,
+      "discountPrice": 18,
+      "stock": 130,
+      "rating": 4.9,
+      "reviews": 540,
+      "sku": "GRC-HNY-035",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+      "images": [
+        "https://images.unsplash.com/photo-1587049352851-8d4e89133924"
+      ],
+      "description": "Pure organic honey collected from natural farms.",
+      "features": ["100% Organic", "Healthy", "Natural Taste"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 36,
+      "title": "Premium Almond Nuts",
+      "slug": "premium-almond-nuts",
+      "category": "grocery",
+      "brand": "NutriFoods",
+      "price": 28,
+      "discountPrice": 22,
+      "stock": 95,
+      "rating": 4.8,
+      "reviews": 480,
+      "sku": "GRC-ALM-036",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+      "images": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff"
+      ],
+      "description": "Healthy premium almonds packed with nutrition.",
+      "features": ["Fresh", "Protein Rich", "Healthy Snack"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 37,
+      "title": "Luxury Perfume Spray",
+      "slug": "luxury-perfume-spray",
+      "category": "beauty",
+      "brand": "Dior",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 26,
+      "rating": 4.9,
+      "reviews": 730,
+      "sku": "BTY-PRF-037",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1541643600914-78b084683601",
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601"
+      ],
+      "description": "Luxury long lasting perfume with premium fragrance.",
+      "features": ["Long Lasting", "Premium Fragrance", "Luxury Bottle"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 38,
+      "title": "Hair Dryer Pro",
+      "slug": "hair-dryer-pro",
+      "category": "beauty",
+      "brand": "Philips",
+      "price": 95,
+      "discountPrice": 79,
+      "stock": 34,
+      "rating": 4.6,
+      "reviews": 410,
+      "sku": "BTY-HDR-038",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
+      ],
+      "description": "Professional hair dryer with fast drying technology.",
+      "features": ["Fast Dry", "Low Noise", "Heat Protection"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 39,
+      "title": "Modern Wooden Bed",
+      "slug": "modern-wooden-bed",
+      "category": "furniture",
+      "brand": "DreamHome",
+      "price": 1450,
+      "discountPrice": 1299,
+      "stock": 7,
+      "rating": 4.8,
+      "reviews": 250,
+      "sku": "FUR-BED-039",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+      ],
+      "description": "Luxury wooden bed with modern minimalist design.",
+      "features": ["Solid Wood", "Minimal Design", "Durable Build"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "7-12 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 40,
+      "title": "Adjustable Study Desk",
+      "slug": "adjustable-study-desk",
+      "category": "furniture",
+      "brand": "WorkSpace",
+      "price": 420,
+      "discountPrice": 369,
+      "stock": 18,
+      "rating": 4.7,
+      "reviews": 340,
+      "sku": "FUR-DSK-040",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd",
+      "images": [
+        "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd"
+      ],
+      "description": "Modern adjustable desk for work and study setup.",
+      "features": ["Adjustable Height", "Modern Style", "Strong Build"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-7 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 41,
+      "title": "Professional Tennis Racket",
+      "slug": "professional-tennis-racket",
+      "category": "sports",
+      "brand": "Wilson",
+      "price": 210,
+      "discountPrice": 179,
+      "stock": 24,
+      "rating": 4.8,
+      "reviews": 520,
+      "sku": "SPT-TRK-041",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3",
+      "images": ["https://images.unsplash.com/photo-1542144582-1ba00456b5e3"],
+      "description": "Professional tennis racket for advanced players.",
+      "features": ["Lightweight", "Strong Grip", "Carbon Fiber"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 42,
+      "title": "Gym Dumbbell Set",
+      "slug": "gym-dumbbell-set",
+      "category": "sports",
+      "brand": "PowerFit",
+      "price": 320,
+      "discountPrice": 280,
+      "stock": 14,
+      "rating": 4.9,
+      "reviews": 680,
+      "sku": "SPT-DBL-042",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "images": [
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+      ],
+      "description": "Adjustable dumbbell set for home gym workouts.",
+      "features": ["Adjustable Weight", "Durable Material", "Comfort Grip"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-7 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 43,
+      "title": "Business Strategy Book",
+      "slug": "business-strategy-book",
+      "category": "books",
+      "brand": "SuccessPress",
+      "price": 32,
+      "discountPrice": 26,
+      "stock": 88,
+      "rating": 4.7,
+      "reviews": 610,
+      "sku": "BOK-BSN-043",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "images": [
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+      ],
+      "description": "Modern business and entrepreneurship strategy guide.",
+      "features": ["Business Growth", "Leadership", "Entrepreneurship"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 44,
+      "title": "Kids Building Blocks Set",
+      "slug": "kids-building-blocks-set",
+      "category": "toys",
+      "brand": "FunKids",
+      "price": 58,
+      "discountPrice": 45,
+      "stock": 60,
+      "rating": 4.8,
+      "reviews": 430,
+      "sku": "TOY-BLK-044",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
+      "images": ["https://images.unsplash.com/photo-1558060370-d644479cb6f7"],
+      "description": "Creative building blocks toy set for children.",
+      "features": ["Educational", "Safe Material", "Creative Play"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 45,
+      "title": "Car Tire Inflator Pump",
+      "slug": "car-tire-inflator-pump",
+      "category": "automotive",
+      "brand": "AutoPlus",
+      "price": 95,
+      "discountPrice": 75,
+      "stock": 42,
+      "rating": 4.6,
+      "reviews": 390,
+      "sku": "AUT-PMP-045",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1486006920555-c77dcf18193c",
+      "images": [
+        "https://images.unsplash.com/photo-1486006920555-c77dcf18193c"
+      ],
+      "description": "Portable tire inflator pump for emergency use.",
+      "features": ["Portable", "Fast Inflation", "Digital Display"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 46,
+      "title": "Leather Wallet for Men",
+      "slug": "leather-wallet-for-men",
+      "category": "fashion",
+      "brand": "UrbanStyle",
+      "price": 48,
+      "discountPrice": 38,
+      "stock": 75,
+      "rating": 4.7,
+      "reviews": 520,
+      "sku": "FSH-WLT-046",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1627123424574-724758594e93",
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93"
+      ],
+      "description": "Premium leather wallet with modern design.",
+      "features": ["Genuine Leather", "Slim Design", "Durable"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 47,
+      "title": "Smart LED Table Lamp",
+      "slug": "smart-led-table-lamp",
+      "category": "electronics",
+      "brand": "LightPro",
+      "price": 68,
+      "discountPrice": 54,
+      "stock": 48,
+      "rating": 4.5,
+      "reviews": 310,
+      "sku": "ELC-LMP-047",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c"
+      ],
+      "description": "Smart LED lamp with adjustable brightness modes.",
+      "features": ["Touch Control", "LED Light", "USB Charging"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 48,
+      "title": "Organic Basmati Rice",
+      "slug": "organic-basmati-rice",
+      "category": "grocery",
+      "brand": "HealthyFarm",
+      "price": 24,
+      "discountPrice": 19,
+      "stock": 160,
+      "rating": 4.8,
+      "reviews": 450,
+      "sku": "GRC-RCE-048",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+      "images": [
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c"
+      ],
+      "description": "Premium quality organic basmati rice.",
+      "features": ["Organic", "Long Grain", "Healthy Choice"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 49,
+      "title": "Luxury Skin Care Set",
+      "slug": "luxury-skin-care-set",
+      "category": "beauty",
+      "brand": "SkinGlow",
+      "price": 145,
+      "discountPrice": 119,
+      "stock": 29,
+      "rating": 4.9,
+      "reviews": 870,
+      "sku": "BTY-SKN-049",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
+      ],
+      "description": "Complete luxury skincare routine package.",
+      "features": ["Natural Ingredients", "Skin Repair", "Hydrating"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 50,
+      "title": "Kids Electric Ride Car",
+      "slug": "kids-electric-ride-car",
+      "category": "toys",
+      "brand": "KidDrive",
+      "price": 320,
+      "discountPrice": 279,
+      "stock": 11,
+      "rating": 4.8,
+      "reviews": 290,
+      "sku": "TOY-CAR-050",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
+      "images": [
+        "https://images.unsplash.com/photo-1516627145497-ae6968895b74"
+      ],
+      "description": "Battery powered electric ride car for kids.",
+      "features": ["Rechargeable Battery", "Remote Control", "LED Lights"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-8 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+    {
+      "id": 51,
+      "title": "Asus ROG Gaming Monitor",
+      "slug": "asus-rog-gaming-monitor",
+      "category": "electronics",
+      "brand": "Asus",
+      "price": 599,
+      "discountPrice": 529,
+      "stock": 22,
+      "rating": 4.9,
+      "reviews": 1180,
+      "sku": "ASU-MON-051",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+      "images": [
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+        "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420"
+      ],
+      "description": "Ultra smooth gaming monitor with high refresh rate.",
+      "features": ["165Hz Refresh Rate", "1ms Response Time", "HDR Display"],
+      "specifications": {
+        "display": "27-inch QHD",
+        "refreshRate": "165Hz"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 52,
+      "title": "Wireless Earbuds Pro",
+      "slug": "wireless-earbuds-pro",
+      "category": "electronics",
+      "brand": "SoundMax",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 65,
+      "rating": 4.7,
+      "reviews": 940,
+      "sku": "ELC-EBD-052",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+      "images": [
+        "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+        "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5"
+      ],
+      "description": "Premium wireless earbuds with crystal clear sound.",
+      "features": ["Noise Cancellation", "Fast Charging", "Bluetooth 5.3"],
+      "specifications": {
+        "battery": "24 Hours",
+        "connectivity": "Bluetooth"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 53,
+      "title": "Classic Men Wrist Watch",
+      "slug": "classic-men-wrist-watch",
+      "category": "fashion",
+      "brand": "Fossil",
+      "price": 240,
+      "discountPrice": 199,
+      "stock": 34,
+      "rating": 4.8,
+      "reviews": 730,
+      "sku": "FSH-WAT-053",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49",
+      "images": [
+        "https://images.unsplash.com/photo-1523170335258-f5ed11844a49",
+        "https://images.unsplash.com/photo-1547996160-81dfa63595aa"
+      ],
+      "description": "Elegant wrist watch with premium stainless steel body.",
+      "features": ["Water Resistant", "Luxury Design", "Premium Build"],
+      "colors": ["Black", "Silver"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 54,
+      "title": "Women Fashion Sunglasses",
+      "slug": "women-fashion-sunglasses",
+      "category": "fashion",
+      "brand": "Gucci",
+      "price": 160,
+      "discountPrice": 129,
+      "stock": 40,
+      "rating": 4.6,
+      "reviews": 420,
+      "sku": "FSH-SUN-054",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+      "images": [
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+        "https://images.unsplash.com/photo-1577803645773-f96470509666"
+      ],
+      "description": "Luxury sunglasses designed for modern women fashion.",
+      "features": ["UV Protection", "Lightweight", "Stylish Frame"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 55,
+      "title": "Fresh Orange Juice Pack",
+      "slug": "fresh-orange-juice-pack",
+      "category": "grocery",
+      "brand": "FreshFarm",
+      "price": 16,
+      "discountPrice": 12,
+      "stock": 180,
+      "rating": 4.7,
+      "reviews": 310,
+      "sku": "GRC-JUC-055",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1600271886742-f049cd451bba",
+      "images": [
+        "https://images.unsplash.com/photo-1600271886742-f049cd451bba",
+        "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b"
+      ],
+      "description": "Natural fresh orange juice with no added sugar.",
+      "features": ["Natural", "Vitamin C", "Fresh Taste"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "1-2 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 56,
+      "title": "Healthy Protein Powder",
+      "slug": "healthy-protein-powder",
+      "category": "grocery",
+      "brand": "NutriFit",
+      "price": 75,
+      "discountPrice": 64,
+      "stock": 72,
+      "rating": 4.8,
+      "reviews": 960,
+      "sku": "GRC-PRT-056",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1579722821273-0f6c1f70d4b3",
+      "images": [
+        "https://images.unsplash.com/photo-1579722821273-0f6c1f70d4b3",
+        "https://images.unsplash.com/photo-1514996937319-344454492b37"
+      ],
+      "description": "Premium protein powder for fitness and health.",
+      "features": ["High Protein", "Chocolate Flavor", "Muscle Recovery"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 57,
+      "title": "Luxury Lipstick Set",
+      "slug": "luxury-lipstick-set",
+      "category": "beauty",
+      "brand": "MAC",
+      "price": 110,
+      "discountPrice": 89,
+      "stock": 36,
+      "rating": 4.9,
+      "reviews": 840,
+      "sku": "BTY-LIP-057",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
+      "images": [
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
+      ],
+      "description": "Luxury matte lipstick set with premium shades.",
+      "features": ["Long Lasting", "Matte Finish", "Skin Friendly"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 58,
+      "title": "Skin Hydration Cream",
+      "slug": "skin-hydration-cream",
+      "category": "beauty",
+      "brand": "Nivea",
+      "price": 38,
+      "discountPrice": 29,
+      "stock": 95,
+      "rating": 4.7,
+      "reviews": 620,
+      "sku": "BTY-CRM-058",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1556228578-8c89e6adf883",
+      "images": [
+        "https://images.unsplash.com/photo-1556228578-8c89e6adf883",
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be"
+      ],
+      "description": "Deep hydration cream for smooth healthy skin.",
+      "features": ["Hydration", "Soft Skin", "Vitamin E"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 59,
+      "title": "Modern Lounge Chair",
+      "slug": "modern-lounge-chair",
+      "category": "furniture",
+      "brand": "ComfortHome",
+      "price": 540,
+      "discountPrice": 469,
+      "stock": 14,
+      "rating": 4.8,
+      "reviews": 270,
+      "sku": "FUR-CHR-059",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e"
+      ],
+      "description": "Comfortable lounge chair with premium fabric design.",
+      "features": ["Modern Design", "Soft Cushion", "Premium Fabric"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "6-8 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 60,
+      "title": "Wooden Bookshelf Cabinet",
+      "slug": "wooden-bookshelf-cabinet",
+      "category": "furniture",
+      "brand": "WoodStyle",
+      "price": 680,
+      "discountPrice": 590,
+      "stock": 10,
+      "rating": 4.7,
+      "reviews": 190,
+      "sku": "FUR-BKS-060",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+      "images": [
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+        "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd"
+      ],
+      "description": "Elegant wooden bookshelf for modern interiors.",
+      "features": ["Solid Wood", "Large Storage", "Modern Finish"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-9 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 61,
+      "title": "Professional Cricket Bat",
+      "slug": "professional-cricket-bat",
+      "category": "sports",
+      "brand": "MRF",
+      "price": 260,
+      "discountPrice": 229,
+      "stock": 20,
+      "rating": 4.9,
+      "reviews": 580,
+      "sku": "SPT-BAT-061",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e",
+      "images": [
+        "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e",
+        "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+      ],
+      "description": "Professional cricket bat made from premium willow.",
+      "features": ["Lightweight", "Strong Grip", "Premium Willow"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 62,
+      "title": "Fitness Resistance Bands",
+      "slug": "fitness-resistance-bands",
+      "category": "sports",
+      "brand": "FitGear",
+      "price": 42,
+      "discountPrice": 34,
+      "stock": 85,
+      "rating": 4.6,
+      "reviews": 440,
+      "sku": "SPT-BND-062",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+      "images": [
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+      ],
+      "description": "Elastic resistance bands for strength training.",
+      "features": ["Durable Material", "Portable", "Multi Resistance"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 63,
+      "title": "Python Programming Guide",
+      "slug": "python-programming-guide",
+      "category": "books",
+      "brand": "CodePress",
+      "price": 45,
+      "discountPrice": 36,
+      "stock": 120,
+      "rating": 4.9,
+      "reviews": 1730,
+      "sku": "BOK-PYT-063",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "images": [
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+      ],
+      "description": "Complete Python programming guide for developers.",
+      "features": ["Beginner Friendly", "Real Projects", "Advanced Topics"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 64,
+      "title": "Fantasy Story Collection",
+      "slug": "fantasy-story-collection",
+      "category": "books",
+      "brand": "DreamBooks",
+      "price": 28,
+      "discountPrice": 22,
+      "stock": 88,
+      "rating": 4.7,
+      "reviews": 390,
+      "sku": "BOK-FAN-064",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      "images": [
+        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+      ],
+      "description": "Fantasy adventure stories for book lovers.",
+      "features": ["Adventure", "Fantasy World", "Best Seller"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 65,
+      "title": "Kids Teddy Bear Plush",
+      "slug": "kids-teddy-bear-plush",
+      "category": "toys",
+      "brand": "SoftKids",
+      "price": 48,
+      "discountPrice": 39,
+      "stock": 75,
+      "rating": 4.8,
+      "reviews": 520,
+      "sku": "TOY-TDY-065",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088",
+      "images": [
+        "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088",
+        "https://images.unsplash.com/photo-1558060370-d644479cb6f7"
+      ],
+      "description": "Soft teddy bear plush toy for kids and gifts.",
+      "features": ["Soft Material", "Cute Design", "Safe for Kids"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 66,
+      "title": "Electric Toy Train Set",
+      "slug": "electric-toy-train-set",
+      "category": "toys",
+      "brand": "ToyWorld",
+      "price": 120,
+      "discountPrice": 98,
+      "stock": 26,
+      "rating": 4.7,
+      "reviews": 310,
+      "sku": "TOY-TRN-066",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
+      "images": [
+        "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
+        "https://images.unsplash.com/photo-1558060370-d644479cb6f7"
+      ],
+      "description": "Electric toy train set with realistic sound effects.",
+      "features": ["Battery Powered", "LED Lights", "Train Sounds"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 67,
+      "title": "Car Cleaning Kit",
+      "slug": "car-cleaning-kit",
+      "category": "automotive",
+      "brand": "AutoShine",
+      "price": 72,
+      "discountPrice": 58,
+      "stock": 54,
+      "rating": 4.6,
+      "reviews": 420,
+      "sku": "AUT-CLK-067",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+        "https://images.unsplash.com/photo-1486006920555-c77dcf18193c"
+      ],
+      "description": "Complete car cleaning and detailing kit.",
+      "features": ["Premium Brushes", "Microfiber Cloth", "Car Polish"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 68,
+      "title": "Motorcycle Safety Helmet",
+      "slug": "motorcycle-safety-helmet",
+      "category": "automotive",
+      "brand": "SafeRide",
+      "price": 210,
+      "discountPrice": 179,
+      "stock": 32,
+      "rating": 4.9,
+      "reviews": 650,
+      "sku": "AUT-HLM-068",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1558981806-ec527fa84c39",
+      "images": [
+        "https://images.unsplash.com/photo-1558981806-ec527fa84c39",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      ],
+      "description": "Protective motorcycle helmet with modern design.",
+      "features": ["Shock Resistant", "Comfort Padding", "Clear Visor"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 69,
+      "title": "Smart Home Security Camera",
+      "slug": "smart-home-security-camera",
+      "category": "electronics",
+      "brand": "SecureCam",
+      "price": 240,
+      "discountPrice": 199,
+      "stock": 40,
+      "rating": 4.8,
+      "reviews": 780,
+      "sku": "ELC-CAM-069",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1558002038-1055907df827",
+      "images": [
+        "https://images.unsplash.com/photo-1558002038-1055907df827",
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+      ],
+      "description": "Smart wireless security camera with night vision.",
+      "features": ["Night Vision", "Motion Detection", "Mobile App Control"],
+      "specifications": {
+        "resolution": "2K HD",
+        "connectivity": "WiFi"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 70,
+      "title": "Premium Cotton Bed Sheet",
+      "slug": "premium-cotton-bed-sheet",
+      "category": "furniture",
+      "brand": "SleepComfort",
+      "price": 95,
+      "discountPrice": 78,
+      "stock": 58,
+      "rating": 4.7,
+      "reviews": 510,
+      "sku": "FUR-BDS-070",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e"
+      ],
+      "description": "Soft premium cotton bed sheet set for luxury comfort.",
+      "features": ["100% Cotton", "Soft Texture", "Machine Washable"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+    {
+      "id": 71,
+      "title": "Sony 4K Smart TV",
+      "slug": "sony-4k-smart-tv",
+      "category": "electronics",
+      "brand": "Sony",
+      "price": 1299,
+      "discountPrice": 1149,
+      "stock": 14,
+      "rating": 4.9,
+      "reviews": 1680,
+      "sku": "ELC-TV-071",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+      "images": [
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+        "https://images.unsplash.com/photo-1461151304267-38535e780c79",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420"
+      ],
+      "description": "Ultra HD smart television with cinematic viewing experience.",
+      "features": ["4K Ultra HD", "Smart TV Apps", "Dolby Audio"],
+      "specifications": {
+        "display": "55-inch",
+        "resolution": "4K UHD"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-7 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 72,
+      "title": "Apple iPad Air",
+      "slug": "apple-ipad-air",
+      "category": "electronics",
+      "brand": "Apple",
+      "price": 799,
+      "discountPrice": 729,
+      "stock": 30,
+      "rating": 4.8,
+      "reviews": 1240,
+      "sku": "ELC-IPD-072",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+        "https://images.unsplash.com/photo-1510552776732-01acc268c3c4"
+      ],
+      "description": "Powerful iPad Air perfect for work and entertainment.",
+      "features": ["Liquid Retina Display", "M-Series Chip", "All Day Battery"],
+      "specifications": {
+        "storage": "256GB",
+        "display": "10.9-inch"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 73,
+      "title": "Nike Running Shoes",
+      "slug": "nike-running-shoes",
+      "category": "fashion",
+      "brand": "Nike",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 48,
+      "rating": 4.8,
+      "reviews": 990,
+      "sku": "FSH-SHO-073",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2",
+        "https://images.unsplash.com/photo-1514996937319-344454492b37"
+      ],
+      "description": "Lightweight running shoes designed for athletes.",
+      "features": ["Air Cushion", "Breathable Fabric", "Lightweight"],
+      "sizes": ["40", "41", "42", "43"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 74,
+      "title": "Premium Silk Saree",
+      "slug": "premium-silk-saree",
+      "category": "fashion",
+      "brand": "RoyalWear",
+      "price": 320,
+      "discountPrice": 279,
+      "stock": 18,
+      "rating": 4.9,
+      "reviews": 410,
+      "sku": "FSH-SAR-074",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
+        "https://images.unsplash.com/photo-1529139574466-a303027c1d8b"
+      ],
+      "description": "Luxury silk saree with elegant traditional design.",
+      "features": ["Pure Silk", "Traditional Design", "Premium Finish"],
+      "colors": ["Red", "Golden", "Blue"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-6 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 75,
+      "title": "Organic Coffee Beans",
+      "slug": "organic-coffee-beans",
+      "category": "grocery",
+      "brand": "CoffeeLand",
+      "price": 28,
+      "discountPrice": 22,
+      "stock": 110,
+      "rating": 4.7,
+      "reviews": 540,
+      "sku": "GRC-CFE-075",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "images": [
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+      ],
+      "description": "Fresh roasted organic coffee beans with rich flavor.",
+      "features": ["Organic", "Rich Aroma", "Fresh Roasted"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 76,
+      "title": "Healthy Granola Cereal",
+      "slug": "healthy-granola-cereal",
+      "category": "grocery",
+      "brand": "HealthyBite",
+      "price": 18,
+      "discountPrice": 14,
+      "stock": 140,
+      "rating": 4.6,
+      "reviews": 360,
+      "sku": "GRC-GRN-076",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1514996937319-344454492b37",
+      "images": [
+        "https://images.unsplash.com/photo-1514996937319-344454492b37",
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff"
+      ],
+      "description": "Healthy granola cereal packed with nutrition.",
+      "features": ["Fiber Rich", "Healthy Breakfast", "Natural Ingredients"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-3 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 77,
+      "title": "Professional Hair Straightener",
+      "slug": "professional-hair-straightener",
+      "category": "beauty",
+      "brand": "Remington",
+      "price": 88,
+      "discountPrice": 72,
+      "stock": 46,
+      "rating": 4.7,
+      "reviews": 570,
+      "sku": "BTY-HST-077",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+        "https://images.unsplash.com/photo-1556228578-8c89e6adf883"
+      ],
+      "description": "Professional hair straightener with ceramic plates.",
+      "features": ["Ceramic Coating", "Fast Heating", "Hair Protection"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 78,
+      "title": "Vitamin C Face Serum",
+      "slug": "vitamin-c-face-serum",
+      "category": "beauty",
+      "brand": "GlowCare",
+      "price": 42,
+      "discountPrice": 34,
+      "stock": 80,
+      "rating": 4.8,
+      "reviews": 690,
+      "sku": "BTY-SRM-078",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be",
+        "https://images.unsplash.com/photo-1556228578-8c89e6adf883"
+      ],
+      "description": "Brightening Vitamin C serum for glowing skin.",
+      "features": ["Skin Brightening", "Hydrating", "Natural Formula"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 79,
+      "title": "Modern Office Chair",
+      "slug": "modern-office-chair",
+      "category": "furniture",
+      "brand": "OfficePro",
+      "price": 390,
+      "discountPrice": 339,
+      "stock": 16,
+      "rating": 4.8,
+      "reviews": 430,
+      "sku": "FUR-OFC-079",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd"
+      ],
+      "description": "Ergonomic office chair for comfortable work setup.",
+      "features": ["Adjustable Height", "Lumbar Support", "Breathable Mesh"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-7 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 80,
+      "title": "Minimalist Coffee Table",
+      "slug": "minimalist-coffee-table",
+      "category": "furniture",
+      "brand": "HomeDecor",
+      "price": 260,
+      "discountPrice": 219,
+      "stock": 20,
+      "rating": 4.6,
+      "reviews": 240,
+      "sku": "FUR-CFT-080",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+      "images": [
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+      ],
+      "description": "Modern coffee table perfect for stylish interiors.",
+      "features": ["Wood Finish", "Modern Design", "Strong Build"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-8 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 81,
+      "title": "Football Training Kit",
+      "slug": "football-training-kit",
+      "category": "sports",
+      "brand": "Adidas",
+      "price": 145,
+      "discountPrice": 119,
+      "stock": 38,
+      "rating": 4.7,
+      "reviews": 520,
+      "sku": "SPT-FTB-081",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1574629810360-7efbbe195018",
+      "images": [
+        "https://images.unsplash.com/photo-1574629810360-7efbbe195018",
+        "https://images.unsplash.com/photo-1517649763962-0c623066013b"
+      ],
+      "description": "Complete football training kit for athletes.",
+      "features": ["Training Cones", "Football", "Durable Material"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 82,
+      "title": "Mountain Bicycle Helmet",
+      "slug": "mountain-bicycle-helmet",
+      "category": "sports",
+      "brand": "RideSafe",
+      "price": 98,
+      "discountPrice": 82,
+      "stock": 28,
+      "rating": 4.8,
+      "reviews": 370,
+      "sku": "SPT-HLM-082",
+      "featured": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+      "images": [
+        "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+      ],
+      "description": "Protective cycling helmet for mountain biking.",
+      "features": ["Lightweight", "Air Ventilation", "Shock Resistant"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 83,
+      "title": "Data Science Handbook",
+      "slug": "data-science-handbook",
+      "category": "books",
+      "brand": "TechBooks",
+      "price": 54,
+      "discountPrice": 45,
+      "stock": 75,
+      "rating": 4.9,
+      "reviews": 1180,
+      "sku": "BOK-DSC-083",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      "images": [
+        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+      ],
+      "description": "Comprehensive data science learning handbook.",
+      "features": ["Machine Learning", "Python Projects", "Data Analysis"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 84,
+      "title": "Kids Educational Puzzle",
+      "slug": "kids-educational-puzzle",
+      "category": "toys",
+      "brand": "BrainKids",
+      "price": 34,
+      "discountPrice": 28,
+      "stock": 92,
+      "rating": 4.7,
+      "reviews": 460,
+      "sku": "TOY-PUZ-084",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
+      "images": [
+        "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
+        "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088"
+      ],
+      "description": "Educational puzzle game for children learning skills.",
+      "features": ["Creative Thinking", "Safe Material", "Educational"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 85,
+      "title": "Remote Control Drone",
+      "slug": "remote-control-drone",
+      "category": "toys",
+      "brand": "SkyToy",
+      "price": 220,
+      "discountPrice": 189,
+      "stock": 18,
+      "rating": 4.8,
+      "reviews": 580,
+      "sku": "TOY-DRN-085",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1473968512647-3e447244af8f",
+      "images": [
+        "https://images.unsplash.com/photo-1473968512647-3e447244af8f",
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+      ],
+      "description": "High performance remote control drone with HD camera.",
+      "features": ["HD Camera", "Long Battery", "Easy Control"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 86,
+      "title": "Car Bluetooth FM Transmitter",
+      "slug": "car-bluetooth-fm-transmitter",
+      "category": "automotive",
+      "brand": "DriveTech",
+      "price": 42,
+      "discountPrice": 34,
+      "stock": 64,
+      "rating": 4.6,
+      "reviews": 390,
+      "sku": "AUT-FMT-086",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+        "https://images.unsplash.com/photo-1486006920555-c77dcf18193c"
+      ],
+      "description": "Wireless FM transmitter for car audio systems.",
+      "features": ["Bluetooth Connection", "USB Charging", "Hands Free Calls"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 87,
+      "title": "Portable Car Refrigerator",
+      "slug": "portable-car-refrigerator",
+      "category": "automotive",
+      "brand": "CoolDrive",
+      "price": 340,
+      "discountPrice": 289,
+      "stock": 12,
+      "rating": 4.7,
+      "reviews": 260,
+      "sku": "AUT-RFG-087",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1486006920555-c77dcf18193c",
+      "images": [
+        "https://images.unsplash.com/photo-1486006920555-c77dcf18193c",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      ],
+      "description": "Portable refrigerator for travel and road trips.",
+      "features": ["Cooling System", "Portable Design", "Energy Efficient"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "5-7 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 88,
+      "title": "Canon DSLR Camera",
+      "slug": "canon-dslr-camera",
+      "category": "electronics",
+      "brand": "Canon",
+      "price": 1499,
+      "discountPrice": 1349,
+      "stock": 15,
+      "rating": 4.9,
+      "reviews": 1420,
+      "sku": "ELC-DSLR-088",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+        "https://images.unsplash.com/photo-1473968512647-3e447244af8f",
+        "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c"
+      ],
+      "description": "Professional DSLR camera for photography and video.",
+      "features": ["4K Recording", "24MP Sensor", "WiFi Connectivity"],
+      "specifications": {
+        "resolution": "24MP",
+        "video": "4K UHD"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 89,
+      "title": "Luxury Backpack",
+      "slug": "luxury-backpack",
+      "category": "fashion",
+      "brand": "UrbanBag",
+      "price": 120,
+      "discountPrice": 98,
+      "stock": 44,
+      "rating": 4.7,
+      "reviews": 610,
+      "sku": "FSH-BPK-089",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+      ],
+      "description": "Stylish backpack for travel and daily lifestyle.",
+      "features": ["Water Resistant", "Laptop Compartment", "Premium Fabric"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 90,
+      "title": "Smart Kitchen Blender",
+      "slug": "smart-kitchen-blender",
+      "category": "electronics",
+      "brand": "KitchenPro",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 26,
+      "rating": 4.8,
+      "reviews": 430,
+      "sku": "ELC-BLD-090",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+      "images": [
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+        "https://images.unsplash.com/photo-1514996937319-344454492b37"
+      ],
+      "description": "Powerful smart blender for healthy smoothies.",
+      "features": ["High Speed Motor", "Multi Function", "Easy Cleaning"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 91,
+      "title": "Luxury Dining Chair Set",
+      "slug": "luxury-dining-chair-set",
+      "category": "furniture",
+      "brand": "HomeLuxury",
+      "price": 780,
+      "discountPrice": 699,
+      "stock": 8,
+      "rating": 4.8,
+      "reviews": 180,
+      "sku": "FUR-DCH-091",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+      "images": [
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+      ],
+      "description": "Premium dining chair set with elegant finish.",
+      "features": ["Wood Finish", "Comfort Seating", "Luxury Style"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "6-9 Days",
+        "returnPolicy": "14 Days Return"
+      }
+    },
+
+    {
+      "id": 92,
+      "title": "Gaming Mechanical Keyboard",
+      "slug": "gaming-mechanical-keyboard",
+      "category": "electronics",
+      "brand": "Razer",
+      "price": 220,
+      "discountPrice": 189,
+      "stock": 40,
+      "rating": 4.9,
+      "reviews": 980,
+      "sku": "ELC-KBD-092",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+      "images": [
+        "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420"
+      ],
+      "description": "RGB mechanical keyboard designed for gamers.",
+      "features": ["Mechanical Switches", "RGB Lighting", "Fast Response"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 93,
+      "title": "Smart Water Bottle",
+      "slug": "smart-water-bottle",
+      "category": "sports",
+      "brand": "HydroFit",
+      "price": 58,
+      "discountPrice": 45,
+      "stock": 72,
+      "rating": 4.6,
+      "reviews": 350,
+      "sku": "SPT-WTR-093",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a"
+      ],
+      "description": "Smart bottle with hydration reminder technology.",
+      "features": ["Temperature Display", "Hydration Reminder", "Portable"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 94,
+      "title": "Wireless Charging Pad",
+      "slug": "wireless-charging-pad",
+      "category": "electronics",
+      "brand": "Anker",
+      "price": 48,
+      "discountPrice": 39,
+      "stock": 90,
+      "rating": 4.7,
+      "reviews": 620,
+      "sku": "ELC-CHG-094",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90",
+      "images": [
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90",
+        "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1"
+      ],
+      "description": "Fast wireless charging pad for smartphones.",
+      "features": [
+        "Fast Charging",
+        "Compact Design",
+        "Universal Compatibility"
+      ],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 95,
+      "title": "Organic Green Vegetables Box",
+      "slug": "organic-green-vegetables-box",
+      "category": "grocery",
+      "brand": "FarmFresh",
+      "price": 36,
+      "discountPrice": 28,
+      "stock": 100,
+      "rating": 4.7,
+      "reviews": 280,
+      "sku": "GRC-VEG-095",
+      "featured": false,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1542838132-92c53300491e",
+      "images": [
+        "https://images.unsplash.com/photo-1542838132-92c53300491e",
+        "https://images.unsplash.com/photo-1518843875459-f738682238a6"
+      ],
+      "description": "Fresh organic vegetables directly from farms.",
+      "features": ["Organic", "Fresh Delivery", "Healthy Choice"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "1-2 Days",
+        "returnPolicy": "No Return"
+      }
+    },
+
+    {
+      "id": 96,
+      "title": "Luxury Candle Gift Set",
+      "slug": "luxury-candle-gift-set",
+      "category": "beauty",
+      "brand": "AromaGlow",
+      "price": 68,
+      "discountPrice": 54,
+      "stock": 52,
+      "rating": 4.8,
+      "reviews": 470,
+      "sku": "BTY-CND-096",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1602874801006-6c1b5c7d3f0f",
+      "images": [
+        "https://images.unsplash.com/photo-1602874801006-6c1b5c7d3f0f",
+        "https://images.unsplash.com/photo-1556228578-8c89e6adf883"
+      ],
+      "description": "Luxury scented candle set for relaxing atmosphere.",
+      "features": ["Natural Wax", "Long Burning", "Relaxing Aroma"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "2-4 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 97,
+      "title": "Travel Suitcase Set",
+      "slug": "travel-suitcase-set",
+      "category": "fashion",
+      "brand": "TravelPro",
+      "price": 420,
+      "discountPrice": 369,
+      "stock": 16,
+      "rating": 4.8,
+      "reviews": 390,
+      "sku": "FSH-SUT-097",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1502920917128-1aa500764ce7",
+      "images": [
+        "https://images.unsplash.com/photo-1502920917128-1aa500764ce7",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+      ],
+      "description": "Durable suitcase set for travel and vacations.",
+      "features": ["360 Wheels", "Large Storage", "Hard Shell"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-7 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    },
+
+    {
+      "id": 98,
+      "title": "AI & Machine Learning Book",
+      "slug": "ai-machine-learning-book",
+      "category": "books",
+      "brand": "FutureTech",
+      "price": 62,
+      "discountPrice": 52,
+      "stock": 58,
+      "rating": 4.9,
+      "reviews": 1320,
+      "sku": "BOK-AIML-098",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "images": [
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da"
+      ],
+      "description": "Modern AI and machine learning concepts explained.",
+      "features": ["Deep Learning", "Python Examples", "Real Projects"],
+      "shipping": {
+        "freeShipping": false,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 99,
+      "title": "Kids Smart Learning Tablet",
+      "slug": "kids-smart-learning-tablet",
+      "category": "toys",
+      "brand": "EduKids",
+      "price": 180,
+      "discountPrice": 149,
+      "stock": 30,
+      "rating": 4.7,
+      "reviews": 480,
+      "sku": "TOY-TAB-099",
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+        "https://images.unsplash.com/photo-1558060370-d644479cb6f7"
+      ],
+      "description": "Educational smart tablet designed for children.",
+      "features": ["Learning Apps", "Parental Control", "HD Display"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "3-5 Days",
+        "returnPolicy": "7 Days Return"
+      }
+    },
+
+    {
+      "id": 100,
+      "title": "Smart Robot Vacuum Cleaner",
+      "slug": "smart-robot-vacuum-cleaner",
+      "category": "electronics",
+      "brand": "RoboClean",
+      "price": 520,
+      "discountPrice": 469,
+      "stock": 22,
+      "rating": 4.9,
+      "reviews": 860,
+      "sku": "ELC-RBT-100",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1581578731548-c64695cc6952",
+      "images": [
+        "https://images.unsplash.com/photo-1581578731548-c64695cc6952",
+        "https://images.unsplash.com/photo-1514996937319-344454492b37",
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c"
+      ],
+      "description": "Smart robotic vacuum cleaner with automatic navigation.",
+      "features": ["Auto Cleaning", "WiFi Control", "Long Battery Life"],
+      "shipping": {
+        "freeShipping": true,
+        "deliveryTime": "4-6 Days",
+        "returnPolicy": "10 Days Return"
+      }
+    }
+  ]
+}

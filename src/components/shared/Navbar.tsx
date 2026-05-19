@@ -3,11 +3,11 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { Menu, X, Search, ShoppingCart, Heart, User } from 'lucide-react'
+import { usePathname } from 'next/navigation'
 
 const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Shop', href: '/shop' },
-  { name: 'Categories', href: '/categories' },
   { name: 'Deals', href: '/deals' },
   { name: 'Contact', href: '/contact' }
 ]
@@ -15,6 +15,7 @@ const navItems = [
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,11 +31,11 @@ export default function Navbar() {
     <>
       {/* ================= NAVBAR ================= */}
       <header
-        className={`sticky top-0 z-50 w-full border-b border-white/10 transition-all duration-300 ${ scrolled
-        ? 'bg-black/40 backdrop-blur-2xl'
-        : 'bg-black'
-       }`}>
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-3 py-4 sm:px-5 lg:px-8">
+        className={`sticky top-0 z-50 w-full border-b border-white/10 transition-all duration-300 ${
+          scrolled ? 'bg-black/70 backdrop-blur-2xl' : 'bg-black'
+        }`}
+      >
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-2 py-4 sm:px-3 lg:px-4">
           {/* ================= LEFT ================= */}
           <div className="flex items-center gap-3">
             {/* MOBILE MENU BUTTON */}
@@ -82,38 +83,56 @@ export default function Navbar() {
           </div>
 
           {/*  DESKTOP MENU  */}
-          <nav className="hidden items-center gap-1 lg:flex">
-            {navItems.map(item => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="group relative overflow-hidden px-4 py-2"
-              >
-                {/* TOP TEXT */}
-                <span
-                  className="
-          block text-sm font-medium text-white
-          transition-transform duration-300
-          group-hover:translate-y-[-140%]
-        "
-                >
-                  {item.name}
-                </span>
+          <nav className="hidden items-center gap-2 lg:flex">
+            {navItems.map(item => {
+              const isActive = pathname === item.href
 
-                {/* BOTTOM TEXT */}
-                <span
-                  className="
-          absolute left-4 top-2
-          translate-y-[140%]
-          text-sm font-medium text-emerald-400
-          transition-transform duration-300
-          group-hover:translate-y-0
-        "
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="group relative overflow-hidden px-4 py-2"
                 >
-                  {item.name}
-                </span>
-              </Link>
-            ))}
+                  {/* TOP TEXT */}
+                  <span
+                    className={`
+                block text-sm font-medium transition-transform duration-300
+                ${
+                  isActive
+                    ? 'text-emerald-400'
+                    : 'text-white group-hover:translate-y-[-140%]'
+                }
+              `}
+                  >
+                    {item.name}
+                  </span>
+
+                  {/* HOVER TEXT */}
+                  {!isActive && (
+                    <span
+                      className="
+                  absolute left-4 top-2
+                  translate-y-[140%]
+                  text-sm font-medium text-emerald-400
+                  transition-transform duration-300
+                  group-hover:translate-y-0
+                "
+                    >
+                      {item.name}
+                    </span>
+                  )}
+
+                  {/* UNDERLINE */}
+                  <span
+                    className={`
+                absolute bottom-0 left-0 h-0.5
+                bg-emerald-400 transition-all duration-300
+                ${isActive ? 'w-15 mx-1' : 'w-0 group-hover:w-full'}
+              `}
+                  />
+                </Link>
+              )
+            })}
           </nav>
 
           {/* ================= RIGHT ================= */}
