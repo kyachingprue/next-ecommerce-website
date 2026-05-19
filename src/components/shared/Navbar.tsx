@@ -61,7 +61,7 @@ export default function Navbar() {
               <input
                 type="text"
                 placeholder="Search products..."
-                className="h-12 w-full rounded-2xl border border-white/10 bg-white/5 px-5 pr-32 text-sm text-white outline-none backdrop-blur-xl placeholder:text-gray-400 focus:border-emerald-400"
+                className="h-12 w-full rounded-2xl border border-white/50 bg-white/5 px-5 pr-32 text-sm text-white outline-none backdrop-blur-xl placeholder:text-gray-400 focus:border-emerald-400"
               />
 
               <button
@@ -220,7 +220,7 @@ export default function Navbar() {
             bg-[#0b0b0b]
             p-5
             transition-all duration-500
-            ${open ? 'translate-x-0' : '-translate-x-full'}
+            ${open ? 'translate-x-0 overflow-y-auto' : '-translate-x-full'}
           `}
         >
           {/* TOP */}

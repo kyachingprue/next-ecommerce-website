@@ -2,141 +2,186 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
+
+import { ArrowRight, ChevronDown, ChevronUp } from 'lucide-react'
+
 import {
-  ArrowRight,
-  Shirt,
-  Headphones,
-  Smartphone,
-  Gamepad2,
-  Watch,
-  Laptop
-} from 'lucide-react'
+  FaTshirt,
+  FaLaptop,
+  FaShoppingBasket,
+  FaCouch,
+  FaDumbbell,
+  FaBookOpen,
+  FaCarSide
+} from 'react-icons/fa'
+
+import { MdOutlinePets, MdOutlineHealthAndSafety } from 'react-icons/md'
 
 const categories = [
   {
     id: 1,
-    title: 'Fashion',
+    title: 'Fashion & Clothing',
     products: '2.5K+ Products',
     image:
       'https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=2070&auto=format&fit=crop',
-    icon: Shirt
+    icon: FaTshirt
   },
 
   {
     id: 2,
-    title: 'Electronics',
+    title: 'Electronics & Gadgets',
     products: '1.8K+ Products',
     image:
       'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2070&auto=format&fit=crop',
-    icon: Smartphone
+    icon: FaLaptop
   },
 
   {
     id: 3,
-    title: 'Gaming',
-    products: '950+ Products',
+    title: 'Grocery & Daily Needs',
+    products: '3.1K+ Products',
     image:
-      'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop',
-    icon: Gamepad2
+      'https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2070&auto=format&fit=crop',
+    icon: FaShoppingBasket
   },
 
   {
     id: 4,
-    title: 'Audio',
+    title: 'Beauty & Personal Care',
     products: '1.2K+ Products',
     image:
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop',
-    icon: Headphones
+      'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=2070&auto=format&fit=crop',
+    icon: MdOutlineHealthAndSafety
   },
 
   {
     id: 5,
-    title: 'Smart Watch',
-    products: '650+ Products',
+    title: 'Furniture & Home Decor',
+    products: '980+ Products',
     image:
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop',
-    icon: Watch
+      'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop',
+    icon: FaCouch
   },
 
   {
     id: 6,
-    title: 'Laptop',
-    products: '890+ Products',
+    title: 'Sports & Fitness',
+    products: '860+ Products',
     image:
-      'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop',
-    icon: Laptop
+      'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop',
+    icon: FaDumbbell
+  },
+
+  {
+    id: 7,
+    title: 'Books & Education',
+    products: '740+ Products',
+    image:
+      'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop',
+    icon: FaBookOpen
+  },
+
+  {
+    id: 8,
+    title: 'Toys & Pet Store',
+    products: '520+ Products',
+    image:
+      'https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=2070&auto=format&fit=crop',
+    icon: MdOutlinePets
+  },
+
+  {
+    id: 9,
+    title: 'Automotive & Bike Accessories',
+    products: '430+ Products',
+    image:
+      'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop',
+    icon: FaCarSide
   }
 ]
 
 export default function CategoriesSection() {
-  return (
-    <section className="relative overflow-hidden bg-[#050505] py-20 text-white">
-      {/* ================= BACKGROUND EFFECT ================= */}
-      <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-emerald-500/10 blur-[120px]" />
+  const [showAll, setShowAll] = useState(false)
 
-      <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-emerald-400/10 blur-[120px]" />
+  const visibleCategories = showAll ? categories : categories.slice(0, 5)
+
+  return (
+    <section className="relative overflow-hidden bg-gray-200 py-20">
+      {/* BACKGROUND EFFECT */}
+      <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-emerald-400/10 blur-[120px]" />
+
+      <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-emerald-500/10 blur-[120px]" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* ================= HEADER ================= */}
+        {/* HEADER */}
         <div className="mb-14 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           {/* LEFT */}
           <div className="max-w-2xl">
             <div
               className="
                 mb-5 flex w-fit items-center gap-2
-                rounded-full border border-emerald-400/20
-                bg-emerald-400/10 px-4 py-2
+                rounded-full border border-emerald-500/20
+                bg-emerald-500/10 px-4 py-2
               "
             >
-              <span className="h-2 w-2 rounded-full bg-emerald-400" />
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
 
-              <p className="text-xs font-semibold tracking-[3px] text-emerald-400">
+              <p className="text-xs font-bold tracking-[3px] text-emerald-600">
                 TOP CATEGORIES
               </p>
             </div>
 
             <h2
               className="
-                text-3xl font-black leading-tight
+                text-3xl font-black leading-tight text-gray-900
                 sm:text-4xl
                 lg:text-5xl
               "
             >
-              Explore Premium
-              <span className="text-emerald-400"> Categories</span>
+              Explore Trending
+              <span className="text-emerald-600"> Categories</span>
             </h2>
 
-            <p className="mt-5 max-w-xl leading-8 text-gray-400">
-              Discover modern collections with premium fashion, gaming,
-              electronics and lifestyle products for your next generation
+            <p className="mt-5 max-w-xl leading-8 text-gray-600">
+              Discover premium collections with modern fashion, electronics,
+              groceries, sports and lifestyle products for your next generation
               shopping experience.
             </p>
           </div>
 
-          {/* RIGHT */}
-          <Link
-            href="/categories"
+          {/* RIGHT BUTTON */}
+          <button
+            onClick={() => setShowAll(!showAll)}
             className="
               group flex w-fit items-center gap-3
-              rounded-2xl border border-white/10
-              bg-white/5 px-6 py-4
-              font-semibold text-white
-              backdrop-blur-xl
+              rounded-2xl border border-gray-200
+              bg-white px-6 py-4
+              font-semibold text-gray-900
+              shadow-lg shadow-black/5
               transition-all duration-300
-              hover:border-emerald-400/30
-              hover:bg-emerald-400
-              hover:text-black
+              hover:border-emerald-500/30
+              hover:bg-emerald-500
+              hover:text-white
             "
           >
-            View All Categories
-            <ArrowRight
-              size={18}
-              className="transition group-hover:translate-x-1"
-            />
-          </Link>
+            {showAll ? 'Show Less Categories' : 'View All Categories'}
+
+            {showAll ? (
+              <ChevronUp
+                size={18}
+                className="transition group-hover:-translate-y-1"
+              />
+            ) : (
+              <ChevronDown
+                size={18}
+                className="transition group-hover:translate-y-1"
+              />
+            )}
+          </button>
         </div>
 
-        {/* ================= CATEGORY GRID ================= */}
+        {/* CATEGORY GRID */}
         <div
           className="
             grid grid-cols-1 gap-6
@@ -144,7 +189,7 @@ export default function CategoriesSection() {
             xl:grid-cols-3
           "
         >
-          {categories.map(category => {
+          {visibleCategories.map(category => {
             const Icon = category.icon
 
             return (
@@ -153,11 +198,12 @@ export default function CategoriesSection() {
                 href="/shop"
                 className="
                   group relative overflow-hidden rounded-4xl
-                  border border-white/10
-                  bg-white/5
+                  border border-gray-200
+                  bg-white
+                  shadow-lg shadow-black/5
                   transition-all duration-500
                   hover:-translate-y-2
-                  hover:border-emerald-400/30
+                  hover:border-emerald-500/20
                 "
               >
                 {/* IMAGE */}
@@ -167,44 +213,43 @@ export default function CategoriesSection() {
                     alt={category.title}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                    className=" object-cover transition-all duration-700 group-hover:scale-110"
+                    className="object-cover transition-all duration-700 group-hover:scale-110"
                   />
 
                   {/* OVERLAY */}
-                  <div className="absolute inset-0 bg-linear-to-t from-black via-black/30 to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent" />
 
                   {/* ICON */}
                   <div
                     className="
                       absolute left-5 top-5
                       flex h-14 w-14 items-center justify-center
-                      rounded-2xl border border-white/10
-                      bg-black/40
-                      text-white backdrop-blur-2xl
+                      rounded-2xl
+                      bg-white/20
+                      text-white
+                      backdrop-blur-xl
                     "
                   >
                     <Icon size={28} />
                   </div>
 
-                  {/* FLOATING TAG */}
+                  {/* TRENDING */}
                   <div
                     className="
                       absolute right-5 top-5
-                      rounded-full border border-emerald-400/20
-                      bg-emerald-400/10 px-4 py-2
-                      backdrop-blur-xl
+                      rounded-full
+                      bg-emerald-500 px-4 py-2
                     "
                   >
-                    <p className="text-xs font-semibold text-emerald-400">
-                      TRENDING
-                    </p>
+                    <p className="text-xs font-bold text-white">TRENDING</p>
                   </div>
 
                   {/* CONTENT */}
                   <div className="absolute bottom-0 left-0 w-full p-5">
                     <div
                       className="
-                        rounded-3xl border border-white/10
+                        rounded-3xl
+                        border border-white/10
                         bg-black/40 p-5
                         backdrop-blur-2xl
                       "
@@ -215,7 +260,7 @@ export default function CategoriesSection() {
                             {category.title}
                           </h3>
 
-                          <p className="mt-2 text-gray-400">
+                          <p className="mt-2 text-gray-300">
                             {category.products}
                           </p>
                         </div>
@@ -224,8 +269,9 @@ export default function CategoriesSection() {
                         <div
                           className="
                             flex h-12 w-12 items-center justify-center
-                            rounded-2xl bg-emerald-400
-                            text-black
+                            rounded-2xl
+                            bg-emerald-500
+                            text-white
                             transition-all duration-300
                             group-hover:rotate-45
                             group-hover:scale-110
@@ -242,20 +288,19 @@ export default function CategoriesSection() {
           })}
         </div>
 
-        {/* ================= BOTTOM BANNER ================= */}
+        {/* BOTTOM BANNER */}
         <div
           className="
             relative mt-16 overflow-hidden rounded-[40px]
-            border border-white/10
-            bg-linear-to-r from-emerald-500/20 via-white/5 to-emerald-400/10
-            p-8
-            backdrop-blur-2xl
+            border border-gray-200
+            bg-white
+            p-8 shadow-xl shadow-black/5
             sm:p-10
             lg:p-14
           "
         >
           {/* GLOW */}
-          <div className="absolute right-0 top-0 h-60 w-60 rounded-full bg-emerald-400/20 blur-[120px]" />
+          <div className="absolute right-0 top-0 h-60 w-60 rounded-full bg-emerald-400/10 blur-[120px]" />
 
           <div
             className="
@@ -268,31 +313,31 @@ export default function CategoriesSection() {
               <div
                 className="
                   mb-5 flex w-fit items-center gap-2
-                  rounded-full border border-white/10
-                  bg-white/5 px-4 py-2
+                  rounded-full border border-emerald-500/20
+                  bg-emerald-500/10 px-4 py-2
                 "
               >
-                <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                <span className="h-2 w-2 rounded-full bg-emerald-500" />
 
-                <p className="text-xs font-semibold tracking-[3px] text-emerald-400">
+                <p className="text-xs font-bold tracking-[3px] text-emerald-600">
                   SPECIAL OFFER
                 </p>
               </div>
 
               <h2
                 className="
-                  text-3xl font-black leading-tight
+                  text-3xl font-black leading-tight text-gray-900
                   sm:text-4xl
                   lg:text-5xl
                 "
               >
                 Up To 70% Discount On
-                <span className="text-emerald-400"> Premium Products</span>
+                <span className="text-emerald-600"> Premium Products</span>
               </h2>
 
-              <p className="mt-5 max-w-xl leading-8 text-gray-300">
+              <p className="mt-5 max-w-xl leading-8 text-gray-600">
                 Limited time shopping experience with premium collections,
-                futuristic gadgets and modern fashion products.
+                futuristic gadgets and modern lifestyle products.
               </p>
             </div>
 
@@ -301,11 +346,11 @@ export default function CategoriesSection() {
               href="/shop"
               className="
                 group flex w-fit items-center gap-3
-                rounded-2xl bg-emerald-400
+                rounded-2xl bg-emerald-500
                 px-8 py-5
-                font-bold text-black
+                font-bold text-white
                 transition-all duration-300
-                hover:scale-105 hover:bg-white
+                hover:scale-105 hover:bg-gray-900
               "
             >
               Shop Collection
