@@ -127,7 +127,7 @@ export default function Navbar() {
                     className={`
                 absolute bottom-0 left-0 h-0.5
                 bg-emerald-400 transition-all duration-300
-                ${isActive ? 'w-15 mx-1' : 'w-0 group-hover:w-full'}
+                ${isActive ? 'w-full' : 'w-0 group-hover:w-full'}
               `}
                   />
                 </Link>

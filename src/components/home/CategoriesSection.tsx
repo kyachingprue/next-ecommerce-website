@@ -22,6 +22,7 @@ const categories = [
   {
     id: 1,
     title: 'Fashion & Clothing',
+    slug: 'fashion',
     products: '2.5K+ Products',
     image:
       'https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=2070&auto=format&fit=crop',
@@ -31,6 +32,7 @@ const categories = [
   {
     id: 2,
     title: 'Electronics & Gadgets',
+    slug: 'electronics',
     products: '1.8K+ Products',
     image:
       'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2070&auto=format&fit=crop',
@@ -40,6 +42,7 @@ const categories = [
   {
     id: 3,
     title: 'Grocery & Daily Needs',
+    slug: 'grocery',
     products: '3.1K+ Products',
     image:
       'https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2070&auto=format&fit=crop',
@@ -49,6 +52,7 @@ const categories = [
   {
     id: 4,
     title: 'Beauty & Personal Care',
+    slug: 'beauty',
     products: '1.2K+ Products',
     image:
       'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=2070&auto=format&fit=crop',
@@ -58,6 +62,7 @@ const categories = [
   {
     id: 5,
     title: 'Furniture & Home Decor',
+    slug: 'furniture',
     products: '980+ Products',
     image:
       'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop',
@@ -67,6 +72,7 @@ const categories = [
   {
     id: 6,
     title: 'Sports & Fitness',
+    slug: 'sports',
     products: '860+ Products',
     image:
       'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop',
@@ -76,6 +82,7 @@ const categories = [
   {
     id: 7,
     title: 'Books & Education',
+    slug: 'books',
     products: '740+ Products',
     image:
       'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop',
@@ -85,6 +92,7 @@ const categories = [
   {
     id: 8,
     title: 'Toys & Pet Store',
+    slug: 'toys',
     products: '520+ Products',
     image:
       'https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=2070&auto=format&fit=crop',
@@ -94,6 +102,7 @@ const categories = [
   {
     id: 9,
     title: 'Automotive & Bike Accessories',
+    slug: 'automotive',
     products: '430+ Products',
     image:
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop',
@@ -195,7 +204,7 @@ export default function CategoriesSection() {
             return (
               <Link
                 key={category.id}
-                href="/shop"
+                href={`/shop/${category.slug}`}
                 className="
                   group relative overflow-hidden rounded-4xl
                   border border-gray-200
