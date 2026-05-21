@@ -3,9 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-
 import { ArrowRight, ChevronDown, ChevronUp } from 'lucide-react'
-
 import {
   FaTshirt,
   FaLaptop,
@@ -113,7 +111,7 @@ const categories = [
 export default function CategoriesSection() {
   const [showAll, setShowAll] = useState(false)
 
-  const visibleCategories = showAll ? categories : categories.slice(0, 5)
+  const visibleCategories = showAll ? categories : categories.slice(0, 6)
 
   return (
     <section className="relative overflow-hidden bg-gray-200 py-20">

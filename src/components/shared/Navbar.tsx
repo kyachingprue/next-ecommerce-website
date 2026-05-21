@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation'
 const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Shop', href: '/shop' },
+  { name: 'Category', href: '/category' },
   { name: 'Deals', href: '/deals' },
   { name: 'Contact', href: '/contact' }
 ]
@@ -71,9 +72,9 @@ export default function Navbar() {
                 className="
                   absolute right-1 top-1
                   flex h-10 items-center gap-2 rounded-xl
-                  bg-emerald-500 px-5 text-sm font-semibold text-black
+                  bg-emerald-400 px-5 text-sm font-semibold text-black
                   transition-all duration-300
-                  hover:scale-105 hover:bg-white
+                   hover:bg-emerald-800 hover:text-white
                 "
               >
                 <Search size={18} />

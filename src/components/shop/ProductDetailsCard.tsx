@@ -25,18 +25,23 @@ export default function ProductDetailsCard({ product }: Props) {
   )
 
   return (
-    <section className="py-8 sm:py-5">
+    <section className="py-5 lg:py-0">
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-start">
         {/* ================= LEFT SIDE ================= */}
         <div>
           {/* MAIN IMAGE */}
           <div
             className="
-              group relative overflow-hidden
-              rounded-[30px] border border-gray-200
-              bg-linear-to-br from-white to-gray-50
-              shadow-sm
-            "
+    group relative overflow-hidden
+    w-10/12 mx-auto
+    rounded-4xl
+    border border-gray-300
+    bg-white/80
+    backdrop-blur-xl
+    shadow-[0_10px_60px_rgba(0,0,0,0.08)]
+    transition-all duration-500
+    hover:shadow-[0_20px_80px_rgba(16,185,129,0.15)]
+  "
           >
             {/* SALE BADGE */}
             <div
@@ -58,8 +63,7 @@ export default function ProductDetailsCard({ product }: Props) {
     h-70 w-full
     sm:h-95
     md:h-112.5
-    lg:h-130
-    lg:max-w-145
+    lg:h-110
   "
             >
               <Image
@@ -93,11 +97,8 @@ export default function ProductDetailsCard({ product }: Props) {
           {/* THUMBNAIL IMAGES */}
           <div
             className="
-              mt-5 grid
-              grid-cols-4 gap-3
-              sm:grid-cols-5
-            "
-          >
+             mt-6 grid grid-cols-4 gap-4 sm:grid-cols-5
+            ">
             {product.images?.map((image, index) => {
               const isActive = activeImage === image
 
@@ -107,7 +108,7 @@ export default function ProductDetailsCard({ product }: Props) {
                   onClick={() => setActiveImage(image)}
                   className={`
                     group relative overflow-hidden
-                    rounded-2xl border-2 bg-white
+                    rounded-3xl border-2 bg-white/80 backdrop-blur-md shadow-sm
                     transition-all duration-300
 
                     ${
@@ -150,7 +151,7 @@ export default function ProductDetailsCard({ product }: Props) {
         </div>
 
         {/* ================= RIGHT SIDE ================= */}
-        <div>
+        <div className="lg:sticky lg:top-24">
           {/* CATEGORY */}
           <div
             className="
@@ -169,9 +170,11 @@ export default function ProductDetailsCard({ product }: Props) {
           {/* TITLE */}
           <h1
             className="
-              text-3xl font-black leading-tight text-gray-900
-              sm:text-4xl lg:text-5xl
-            "
+    text-3xl font-black leading-tight tracking-tight
+    text-gray-900
+    sm:text-4xl
+    lg:text-[52px]
+  "
           >
             {product.title}
           </h1>
@@ -205,7 +208,7 @@ export default function ProductDetailsCard({ product }: Props) {
           </div>
 
           {/* PRICE */}
-          <div className="mt-7 flex flex-wrap items-center gap-4">
+          <div className=" mt-8 flex flex-wrap items-end gap-4 rounded-3xl border border-emerald-100 bg-emerald-50/70 p-5">
             <h2
               className="
                 text-4xl font-black text-emerald-600
@@ -344,14 +347,19 @@ export default function ProductDetailsCard({ product }: Props) {
           >
             <button
               className="
-                flex flex-1 items-center justify-center gap-3
-                rounded-2xl bg-emerald-500
-                px-8 py-4
-                font-bold text-white
-                transition-all duration-300
-                hover:scale-[1.02]
-                hover:bg-emerald-600
-              "
+    group relative overflow-hidden
+    flex flex-1 items-center justify-center gap-3
+    rounded-2xl
+    bg-linear-to-r
+    from-emerald-500
+    to-emerald-600
+    px-8 py-4
+    font-bold text-white
+    shadow-lg shadow-emerald-500/30
+    transition-all duration-500
+    hover:-translate-y-1
+    hover:shadow-2xl hover:shadow-emerald-500/40
+  "
             >
               <ShoppingCart size={20} />
               Add To Cart
