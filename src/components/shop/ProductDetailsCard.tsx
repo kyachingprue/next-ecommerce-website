@@ -67,6 +67,7 @@ export default function ProductDetailsCard({ product }: Props) {
                 alt={product.title}
                 fill
                 priority
+                loading="eager"
                 sizes="
       (max-width: 640px) 100vw,
       (max-width: 1024px) 50vw,
