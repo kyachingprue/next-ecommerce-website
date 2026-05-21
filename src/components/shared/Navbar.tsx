@@ -62,7 +62,7 @@ export default function Navbar() {
               <input
                 type="text"
                 placeholder="Search products..."
-                className="h-12 w-full rounded-2xl border border-white/50 bg-white/5 px-5 pr-32 text-sm text-white outline-none backdrop-blur-xl placeholder:text-gray-400 focus:border-emerald-400"
+                className="h-12 w-full rounded-2xl border border-white/50 bg-white px-5 pr-32 text-sm text-gray-700 outline-none backdrop-blur-xl placeholder:text-gray-400 focus:border-emerald-400"
               />
 
               <button
