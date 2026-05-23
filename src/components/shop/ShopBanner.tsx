@@ -50,7 +50,7 @@ export default function ShopBanner() {
           {/* Buttons */}
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
             <Link
-              href="/category"
+              href="/shop"
               className="group inline-flex items-center justify-center rounded-full bg-slate-900 px-7 py-4 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-600"
             >
               Shop Now

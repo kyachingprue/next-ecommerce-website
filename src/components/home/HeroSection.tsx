@@ -63,7 +63,7 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section className="relative overflow-hidden bg-black">
+    <section className="relative overflow-hidden bg-green-700">
       {/* ================= SLIDER ================= */}
       <div className="relative h-162.5 w-full sm:h-180 lg:h-screen">
         {slides.map((slide, index) => (
@@ -89,7 +89,7 @@ export default function HeroSection() {
             />
 
             {/* OVERLAY */}
-            <div className="absolute inset-0 bg-black/70" />
+            <div className="absolute inset-0 bg-green-700/50" />
 
             {/* GRADIENT */}
             <div className="absolute inset-0 bg-linear-to-r from-black via-black/70 to-transparent" />
@@ -238,7 +238,7 @@ export default function HeroSection() {
                           </p>
 
                           <h3 className="mt-2 text-2xl font-black text-white">
-                            Modern Lifestyle Products
+                            {slide.title.split(' ')[0]} {slide.title.split(' ')[1]}
                           </h3>
 
                           <div className="mt-5 flex items-center justify-between">
@@ -268,22 +268,6 @@ export default function HeroSection() {
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                    {/* FLOATING CARD */}
-                    <div
-                      className="
-                        absolute -left-10 top-10
-                        rounded-3xl border border-white/10
-                        bg-white/10 p-5
-                        backdrop-blur-2xl
-                      "
-                    >
-                      <p className="text-sm text-gray-300">Weekly Sales</p>
-
-                      <h3 className="mt-2 text-3xl font-black text-white">
-                        25K+
-                      </h3>
                     </div>
                   </div>
                 </div>

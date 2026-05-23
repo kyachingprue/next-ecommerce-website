@@ -43,7 +43,7 @@ const ShopPage = () => {
       {/* Category Section */}
       <div className="mt-12">
         {/* Heading */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-6 px-4">
           <div>
             <h2 className="text-3xl font-black text-slate-900">
               Shop By Category
@@ -56,7 +56,7 @@ const ShopPage = () => {
         </div>
 
         {/* Category Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 px-4 gap-5">
           {/* All Products Button */}
           <button
             onClick={() => {
@@ -177,7 +177,7 @@ const ShopPage = () => {
       </div>
 
       {/* Products */}
-      <div className="mt-14">
+      <div className="mt-14 px-4">
         {/* Dynamic Title */}
         <div className="mb-8 flex items-center justify-between">
           <h2 className="text-3xl font-black text-slate-900">

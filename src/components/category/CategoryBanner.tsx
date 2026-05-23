@@ -14,10 +14,13 @@ import CategoriesSection from '../home/CategoriesSection'
 export default function CategoryBanner() {
   return (
     <section>
-      <section className="relative overflow-hidden bg-white py-20 lg:py-28">
+      <section className="relative overflow-hidden bg-white py-10 lg:py-12">
         {/* Background Blur Effects */}
-        <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl opacity-40" />
-        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-purple-100 blur-3xl opacity-40" />
+        <div className="absolute top-0 left-0 h-72 w-72 rounded-full bg-cyan-200/40 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-200/40 blur-3xl" />
+
+        {/* Grid Pattern */}
+        <div className="absolute inset-0 opacity-[0.05] grid-pattern" />
 
         <div className="container mx-auto px-6">
           <div className="grid items-center gap-14 lg:grid-cols-2">
@@ -201,7 +204,7 @@ export default function CategoryBanner() {
           </div>
         </div>
       </section>
-      <CategoriesSection/>
+      <CategoriesSection />
     </section>
   )
 }
