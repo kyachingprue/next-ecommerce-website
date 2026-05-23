@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Menu, X, Search, ShoppingCart, Heart, User } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 
@@ -17,6 +17,26 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
+  const [showSearch, setShowSearch] = useState(false)
+
+  const searchRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        searchRef.current &&
+        !searchRef.current.contains(event.target as Node)
+      ) {
+        setShowSearch(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,13 +50,12 @@ export default function Navbar() {
 
   return (
     <>
-      {/* ================= NAVBAR ================= */}
       <header
         className={`sticky top-0 z-50 w-full border-b border-white/10 transition-all duration-300 ${
           scrolled ? 'bg-black/70 backdrop-blur-2xl' : 'bg-black'
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-2 py-4 sm:px-3 lg:px-4">
+        <div className="mx-auto flex w-full lg:max-w-8xl items-center justify-between gap-2 px-2 py-4 sm:px-3 lg:px-4">
           {/* ================= LEFT ================= */}
           <div className="flex items-center gap-3">
             {/* MOBILE MENU BUTTON */}
@@ -51,38 +70,124 @@ export default function Navbar() {
 
             {/* LOGO */}
             <Link href="/" className="shrink-0">
-              <h1 className="text-2xl font-black tracking-wide text-white transition-all duration-300 hover:scale-105 sm:text-3xl ">
+              <h1
+                className="
+    text-lg font-black tracking-wide
+    text-white transition-all duration-300
+    hover:scale-105 sm:text-2xl
+  "
+              >
                 Shop<span className="text-emerald-400">Nest</span>
               </h1>
             </Link>
           </div>
-
           {/* ================= SEARCH ================= */}
-          <div className="hidden flex-1 px-4 md:flex">
+          {/* Desktop Search */}
+          <div className="hidden flex-1 px-4 lg:flex">
             <div className="relative w-full">
               <input
                 type="text"
                 placeholder="Search products..."
-                className="h-12 w-full rounded-2xl border border-white/50 bg-white px-5 pr-32 text-sm text-gray-700 outline-none backdrop-blur-xl placeholder:text-gray-400 focus:border-emerald-400"
+                className="
+        h-12 w-full rounded-2xl
+        border border-white/10
+        bg-white px-5 pr-32
+        text-sm text-gray-400
+        outline-none backdrop-blur-xl
+        placeholder:text-gray-400
+        focus:border-emerald-400
+      "
               />
 
               <button
                 type="button"
                 title="Search"
+                aria-label="Search"
                 className="
-                  absolute right-1 top-1
-                  flex h-10 items-center gap-2 rounded-xl
-                  bg-emerald-400 px-5 text-sm font-semibold text-black
-                  transition-all duration-300
-                   hover:bg-emerald-800 hover:text-white
-                "
+        absolute right-1 top-1
+        flex h-10 items-center gap-2
+        rounded-xl bg-emerald-400
+        px-5 text-sm font-semibold
+        text-black transition-all duration-300
+        hover:bg-white
+      "
               >
                 <Search size={18} />
                 Search
               </button>
             </div>
           </div>
+          {/* Mobile Search Button */}
+          <button
+            type="button"
+            title="Open Search"
+            aria-label="Open Search"
+            onClick={() => setShowSearch(true)}
+            className="
+    flex h-11 w-11 items-center
+    justify-center rounded-full
+    bg-green-800 text-white
+    shadow-lg transition-all duration-300
+    hover:scale-105 hover:bg-emerald-400
+    lg:hidden
+  "
+          >
+            <Search size={20} />
+          </button>
+          {/* Mobile Popup Search */}
+          {showSearch && (
+            <div
+              className="
+      fixed inset-0 z-999
+      bg-black/50 backdrop-blur-sm
+      lg:hidden
+    "
+            >
+              <div
+                ref={searchRef}
+                className="
+        absolute left-1/2 top-6
+        w-[92%] max-w-lg
+        -translate-x-1/2
+        rounded-3xl border border-white/10
+        bg-[#074b34]
+        p-4 shadow-2xl
+      "
+              >
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Search products..."
+                    className="
+            h-14 w-full rounded-2xl
+            border border-white/10
+            bg-white/5 px-5 pr-16
+            text-sm text-white
+            outline-none
+            placeholder:text-gray-400
+            focus:border-emerald-400
+          "
+                  />
 
+                  <button
+                    type="button"
+                    title="Search"
+                    aria-label="Search"
+                    className="
+            absolute right-2 top-2
+            flex h-10 w-10 items-center
+            justify-center rounded-xl
+            bg-emerald-400 text-black
+            transition-all duration-300
+            hover:bg-white
+          "
+                  >
+                    <Search size={18} />
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
           {/*  DESKTOP MENU  */}
           <nav className="hidden items-center gap-2 lg:flex">
             {navItems.map(item => {
@@ -135,7 +240,6 @@ export default function Navbar() {
               )
             })}
           </nav>
-
           {/* ================= RIGHT ================= */}
           <div className="flex items-center gap-2 sm:gap-3">
             {/* ICONS */}
@@ -164,9 +268,9 @@ export default function Navbar() {
                 aria-label="Login Account"
                 title="Login Account"
                 className="
-                  group relative overflow-hidden rounded-2xl
+                  group relative overflow-hidden rounded-md md:rounded-2xl
                   border border-emerald-400/30
-                  bg-emerald-400 px-5 py-3
+                  bg-emerald-400 px-3 md:px-5 py-1.5 md:py-3
                   font-semibold text-black
                   transition-all duration-300
                   hover:bg-white
@@ -196,31 +300,6 @@ export default function Navbar() {
                 </div>
               </button>
             </Link>
-          </div>
-        </div>
-
-        {/* ================= MOBILE SEARCH ================= */}
-        <div className="px-3 pb-4 md:hidden">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search products..."
-              className="h-12 w-full rounded-2xl border border-white/10 bg-white/5 px-4 pr-28 text-sm text-white outline-none placeholder:text-gray-400 focus:border-emerald-400"
-            />
-
-            <button
-              type="button"
-              aria-label="Search"
-              title="Search"
-              className="
-                absolute right-1 top-1
-                flex h-10 items-center gap-2 rounded-xl
-                bg-emerald-400 px-4 text-sm font-semibold text-black
-              "
-            >
-              <Search size={16} />
-              Search
-            </button>
           </div>
         </div>
       </header>

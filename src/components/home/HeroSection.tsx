@@ -63,9 +63,9 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section className="relative overflow-hidden bg-green-700">
+    <section className="relative overflow-hidden bg-green-700 ">
       {/* ================= SLIDER ================= */}
-      <div className="relative h-162.5 w-full sm:h-180 lg:h-screen">
+      <div className="relative h-180 md:h-162.5 w-full sm:h-180 lg:h-screen">
         {slides.map((slide, index) => (
           <div
             key={slide.id}
@@ -98,7 +98,7 @@ export default function HeroSection() {
             <div className="relative z-30 flex h-full items-center">
               <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
                 {/* ================= LEFT CONTENT ================= */}
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center mt-12 md:mt-0">
                   {/* TOP TAG */}
                   <div
                     className="
@@ -118,7 +118,7 @@ export default function HeroSection() {
                   {/* TITLE */}
                   <h1
                     className="
-                      max-w-2xl text-4xl font-black leading-tight text-white
+                      max-w-2xl text-3xl font-black leading-tight text-white
                       sm:text-4xl
                       lg:text-6xl
                     "
