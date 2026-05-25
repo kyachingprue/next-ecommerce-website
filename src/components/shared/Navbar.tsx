@@ -262,7 +262,7 @@ export default function Navbar() {
             </button>
 
             {/* LOGIN BUTTON */}
-            <Link href="/login">
+            <Link href="/">
               <button
                 type="button"
                 aria-label="Login Account"
